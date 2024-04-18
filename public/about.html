@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			:root {
+				--primary-color: #63e3dd; /* Your primary color */
+				--secondary-color: #7e52a0; /* Your secondary color */
+				--accent-color: #d295bf; /* Your accent color */
+				--background-color: #e6bccd; /* Background color */
+				--text-color: #29274c; /* Text color */
+			}
+			body {
+				background-color: var(--background-color);
+			}
+
+			@media only screen and (max-width: 600px) {
+				body {
+					/* background-color: lightseagreen; */
+					margin: 0;
+					padding: 0;
+				}
+
+				body .container {
+					background-color: rgba(249, 247, 250, 0.979);
+					width: 98%;
+					padding: 8%;
+					/* width: 100vw; */
+					margin: 0 auto;
+					/* border-radius: 10% 30% 10% 30%; */
+				}
+			}
+			.container {
+				margin: 0 auto;
+				max-width: 100%;
+				width: 49%;
+				height: auto;
+				font: 20px Arial, sans-serif;
+				background: #f6f5f2;
+				padding: 5%;
+				box-shadow: 0 4px 8px rgba(32, 178, 171, 0.205);
+				border-radius: 30% 10% 30% 10%;
+				box-sizing: border-box;
+				color: #29274c;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1
+				style="
+					/* color: rgba(49, 2, 124, 0.925); */
+					color: #7e52a0;
+					text-align: center;
+					font-size: 42px;
+				"
+			>
+				About Me
+			</h1>
+			<div>
+				<div
+					style="
+						display: flex;
+						justify-content: space-evenly;
+						color: lightseagreen;
+					"
+				>
+					<p style="font-size: 60px">&LeftAngleBracket;</p>
+					<!-- <p style="font-size: 60px">&LeftAngleBracket; &#123;</p> -->
+
+					<img
+						src="../assets/images/youngFace.png"
+						alt=""
+						style="
+							border-radius: 50%;
+							box-shadow: 4px 10px var(--accent-color);
+						"
+						height="200px"
+					/>
+					<!-- <p style="font-size: 60px">&#x1F44B;</p> -->
+					<!-- <p style="font-size: 60px">&#125;</p> -->
+					<p style="font-size: 60px">&RightAngleBracket;</p>
+				</div>
+
+				<p style="font-weight: 400">
+					Hello! I'm Yordany, a pasionate web developer based in
+					florida. I love creating beautiful and functional websites
+					that make a difference. when I'm not coding you'll find me
+					exploring new technologies or enjoying the great outdoors.
+				</p>
+			</div>
+			<div>
+				<h3 style="color: #7e52a0">
+					Proficient with the following technologies:
+					<span>&curvearrowright;</span>
+				</h3>
+				<ul style="color: var(--text-color)">
+					<li>Html</li>
+					<li>Css</li>
+					<li>Javascript</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
